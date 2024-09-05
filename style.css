@@ -45,10 +45,3 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
-
-.nav-links ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    font-family: sans-serif;
-}
