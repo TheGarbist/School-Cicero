@@ -33,7 +33,6 @@
 }  
 
 .nav-links ul li::after{
-    centent: '';
     width: 0%;
     height: 2px;
     background-color: #f44366;
