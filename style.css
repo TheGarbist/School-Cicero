@@ -96,3 +96,12 @@ nav img{
     background: #090c9b;
     transition: 1s;
 }
+
+/*    curso  */
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
