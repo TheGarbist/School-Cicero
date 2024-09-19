@@ -97,6 +97,13 @@ nav img{
     transition: 1s;
 }
 
+.cicero-header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 /*    curso  */
 
 .course{
