@@ -134,12 +134,12 @@ p{
 }
 
 .courser-col{
-    flex-basis: 50%;
+    flex-basis: 40%;
     background: #b4c5e4;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    box-sizing: 20px 40px;
+    box-sizing: border-box;
     transition: 0.5s;
     cursor: pointer;
     align-items: center;
@@ -152,5 +152,5 @@ h3{
 }
 
 .courser-col:hover{
-    box-shadow: 0 0 20px 0px #090c9b;
+    box-shadow: 0 0 20px 0px #b4c5e4;
 }
