@@ -11,6 +11,7 @@
         <nav class="cicero-header">
             <a href="index.html"><img src="LogoCicero.png" class="imagem"> </a>
             <div class="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -29,7 +30,7 @@
             </div>
 
             
-
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
     </section> 
 
@@ -54,6 +55,17 @@
         </div>
 
     </section>
+<!-------JAva sscript for toggle menu------>
 
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+        function hideMenu(){
+            navLinks.style.right = "-200px"    
+    }
+</script>
 </body>
 </html>
