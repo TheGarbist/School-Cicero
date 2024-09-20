@@ -189,5 +189,11 @@ h3{
 }
 
 .courser-col:hover{
-    box-shadow: 0 0 20px 0px #b4c5e4;
+    box-shadow: 0 0 20px 0px rgba(0,0,110,0.5);
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
 }
